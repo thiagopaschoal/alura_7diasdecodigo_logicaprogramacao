@@ -17,7 +17,7 @@ alert("Você deseja muito a área " + area + " e aprender " + opcaoTechEscolhida
 
 if (!opcaoInvalida) {
     while (true) {
-        const queroAprenderOutrasTecnologias = prompt("em mais alguma tecnologia que você gostaria de aprender? Digite [OK] ou [Não]")
+        const queroAprenderOutrasTecnologias = prompt("tem mais alguma tecnologia que você gostaria de aprender? Digite [OK] ou [Não]")
         if (queroAprenderOutrasTecnologias == "OK" || queroAprenderOutrasTecnologias == "ok" || queroAprenderOutrasTecnologias == "Ok") {
             const nomeDaTecnologia = prompt("digite o nome da tecnologia que quer aprender:")
             alert(nomeDaTecnologia + " é uma linguagem muito legal e muito usada no mercado")
